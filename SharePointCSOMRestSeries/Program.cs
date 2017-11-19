@@ -10,7 +10,10 @@ namespace SharePointCSOMRestSeries
     {
         static void Main(string[] args)
         {
-
+            CSOMDay1 objCSOM = new CSOMDay1();
+            objCSOM.ConnectSharePointOnline();
+            Console.ReadLine();
         }
+
     }
 }
